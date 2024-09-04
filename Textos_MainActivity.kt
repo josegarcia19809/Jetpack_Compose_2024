@@ -42,6 +42,19 @@ fun Texto() {
     )
     {
         Text(
+            text = "Hello World!",
+            fontSize = 48.sp,
+            color = MaterialTheme.colorScheme.primary
+        )
+
+        Text(
+            text = "Stay Hungry, Stay Foolish!",
+            fontWeight = FontWeight.Bold,
+            fontSize = 16.sp,
+            color = MaterialTheme.colorScheme.primary
+        )
+
+        Text(
             text = "Tu tiempo es limitado, así que no lo desperdicies viviendo la vida de otra " +
                     "persona. No te dejes atrapar por el dogma, que es vivir con los resultados " +
                     "del pensamiento de otras personas. No dejes que el ruido de las opiniones " +
